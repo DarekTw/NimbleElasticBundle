@@ -9,7 +9,7 @@ services:
 
     Nimble\ElasticBundle\:
         resource: '../../*'
-        exclude: '../../{Resources}'
+        exclude: '../../{Resources,Type}'
 
     Nimble\ElasticBundle\Client\ClientFactory:
         calls:
